@@ -2,7 +2,6 @@ import React from "react";
 import { Link, useLocation } from "wouter";
 import { Menu, X } from "lucide-react";
 import { Button } from "@/components/ui/button";
-import Logo from "@/components/Logo";
 
 const navLinks = [
   { name: "Home", href: "/" },
@@ -22,7 +21,11 @@ export default function Navbar() {
         <div className="flex h-20 items-center justify-between">
           <div className="flex items-center">
             <Link href="/">
-              <Logo showText={false} />
+              <img
+                src="/Techdigiedu_logo.png"
+                alt="TechDigiEdu logo"
+                className="h-10 w-10 rounded-xl object-cover"
+              />
             </Link>
           </div>
 
