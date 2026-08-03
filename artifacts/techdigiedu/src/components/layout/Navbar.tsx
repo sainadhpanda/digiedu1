@@ -22,7 +22,7 @@ export default function Navbar() {
         <div className="flex h-20 items-center justify-between">
           <div className="flex items-center">
             <Link href="/">
-              <Logo />
+              <Logo showText={false} />
             </Link>
           </div>
 
