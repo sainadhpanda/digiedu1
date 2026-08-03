@@ -55,20 +55,6 @@ export default function Home() {
               </span>
             </motion.div>
 
-            <motion.div
-              initial={{ opacity: 0, y: 20 }}
-              animate={{ opacity: 1, y: 0 }}
-              transition={{ duration: 0.5, delay: 0.05 }}
-              className="flex items-center justify-center rounded-3xl border border-border bg-white/80 px-5 py-4 shadow-sm shadow-slate-200/60 backdrop-blur-md"
-            >
-              <img
-                src="/Techdigiedu_logo.png"
-                alt="TechDigiEdu logo"
-                className="h-16 w-16 rounded-2xl object-cover"
-                loading="eager"
-              />
-            </motion.div>
-
             <motion.h1
               initial={{ opacity: 0, y: 20 }}
               animate={{ opacity: 1, y: 0 }}
