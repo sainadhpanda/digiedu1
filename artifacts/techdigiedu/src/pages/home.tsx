@@ -59,7 +59,7 @@ export default function Home() {
               initial={{ opacity: 0, y: 20 }}
               animate={{ opacity: 1, y: 0 }}
               transition={{ duration: 0.5, delay: 0.05 }}
-              className="flex items-center gap-4 rounded-3xl border border-border bg-white/80 px-5 py-4 shadow-sm shadow-slate-200/60 backdrop-blur-md"
+              className="flex items-center justify-center rounded-3xl border border-border bg-white/80 px-5 py-4 shadow-sm shadow-slate-200/60 backdrop-blur-md"
             >
               <img
                 src="/Techdigiedu_logo.png"
@@ -67,10 +67,6 @@ export default function Home() {
                 className="h-16 w-16 rounded-2xl object-cover"
                 loading="eager"
               />
-              <div className="text-left">
-                <p className="text-sm uppercase tracking-[0.22em] text-primary font-semibold">Powered by TechDigiEdu</p>
-                <p className="text-base font-semibold text-foreground">Your trusted brand for digital career training.</p>
-              </div>
             </motion.div>
 
             <motion.h1
