@@ -17,17 +17,17 @@ export default function Footer() {
               Empowering the next generation of digital professionals through cutting-edge training and guaranteed placement support.
             </p>
             <div className="space-y-2 pt-2">
-              <a href="mailto:info@techdigiedu.com" className="flex items-center gap-2 text-sm text-muted-foreground hover:text-primary transition-colors">
+              <a href="mailto:admin@techdigiedu.in" className="flex items-center gap-2 text-sm text-muted-foreground hover:text-primary transition-colors">
                 <Mail className="h-4 w-4 text-primary/60" />
-                info@techdigiedu.com
+                admin@techdigiedu.in
               </a>
-              <a href="tel:+911234567890" className="flex items-center gap-2 text-sm text-muted-foreground hover:text-primary transition-colors">
+              <a href="tel:+919063863841" className="flex items-center gap-2 text-sm text-muted-foreground hover:text-primary transition-colors">
                 <Phone className="h-4 w-4 text-primary/60" />
-                +91 12345 67890
+                9063863841
               </a>
               <div className="flex items-center gap-2 text-sm text-muted-foreground">
                 <MapPin className="h-4 w-4 text-primary/60 shrink-0" />
-                Bengaluru, Karnataka, India
+                Hyderabad
               </div>
             </div>
           </div>
